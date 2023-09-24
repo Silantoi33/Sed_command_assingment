@@ -17,8 +17,8 @@ silantoi@DESKTOP-4CSCM70:~/firstdir$ `for a in diary.html; do sed '1,221d;265,33
  - And prints the output on the screen
 
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/writing$ `for a in Jo Meg Beth Amy; do printf "$a "; less LittleWomen.txt | grep $a |wc -l; done`
-|....|....|
 |Jo  |1528|
+|----|----|
 |Meg |685 |
 |Beth|463 |
 
